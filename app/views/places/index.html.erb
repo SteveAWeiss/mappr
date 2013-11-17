@@ -1,0 +1,21 @@
+<h1> 
+	Latest place Ladies & Gents
+</h1>
+
+<div>
+	<% if @place.present? %>
+
+		Title: <%= @place.title %>
+		<br/>
+		Address: <%= @place.address %>
+	<% else %>
+		<h2> 
+			Enter a place idiot. You fucked up! 
+		</h2>
+
+	<% end %>
+
+
+
+</div>
+
